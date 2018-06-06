@@ -1,2 +1,0 @@
-# reactComps
-Created with CodeSandbox
