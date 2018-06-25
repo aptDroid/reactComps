@@ -9,16 +9,16 @@ const App = () => (
     <Navbar
       list={[
         {
-          name: "home",
-          href: "#"
+          name: "google",
+          href: "https://www.google.com/"
         },
         {
-          name: "contact",
-          href: "#"
+          name: "facebook",
+          href: "https://www.facebook.com"
         },
         {
-          name: "about",
-          href: "#"
+          name: "deviantart",
+          href: "https://aptdroid.deviantart.com/gallery/"
         }
       ]}
     />
