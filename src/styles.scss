@@ -1,5 +1,10 @@
 html,
 body {
   font-family: sans-serif;
-  background: rgb(50, 50, 50);
+  background: rgb(250, 256, 256);
+}
+
+#pCont {
+  display: flex;
+  justify-content: center;
 }
