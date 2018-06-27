@@ -22,11 +22,13 @@
 
   #profileFooter {
     #location {
+      font-size: 14px;
       color: rgb(100, 100, 100);
       flex: 1;
     }
 
     #workButton {
+      font-size: 14px;
       background-color: rgba(0, 0, 0, 0);
       color: rgba(0, 255, 0, 1);
       border: 0px solid black;
@@ -34,10 +36,12 @@
       cursor: pointer;
       border-radius: 5px;
       span {
+        color: white;
         font-weight: bold;
         font-size: 26px;
         vertical-align: sub;
         text-shadow: 0 0 3px #00ff00;
+        animation-name: next-arrow;
       }
       /*
       &:hover {
