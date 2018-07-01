@@ -1,49 +1,57 @@
 #profileBrief {
-  color: rgb(200, 200, 200);
-  width: 100vw;
+  position: relative;
+  color: rgb(20, 200, 200);
   height: 90vh;
   display: flexbox;
   align-content: center;
+  // background-color: rgba(68, 68, 68, 0.5);
 
-  #skillLine {
-    font-size: 40px;
-    font-weight: bold;
-    display: inline-block;
-    flex: 1;
-  }
+  #profileComponents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-  #supportingLine {
-    font-size: 24px;
-    font-weight: lighter;
-    margin-bottom: 10px;
-    display: inline-block;
-    flex: 1;
-  }
-
-  #profileFooter {
-    #location {
-      font-size: 14px;
-      color: rgb(100, 100, 100);
+    #skillLine {
+      font-size: 40px;
+      font-weight: bold;
+      display: inline-block;
       flex: 1;
     }
 
-    #workButton {
-      font-size: 14px;
-      background-color: rgba(0, 0, 0, 0);
-      color: rgba(0, 255, 0, 1);
-      border: 0px solid black;
-      outline: 0;
-      cursor: pointer;
-      border-radius: 5px;
-      span {
-        color: white;
+    #supportingLine {
+      font-size: 24px;
+      font-weight: lighter;
+      margin-bottom: 10px;
+      display: inline-block;
+      flex: 1;
+    }
+
+    #profileFooter {
+      #location {
+        font-size: 14px;
+        color: rgb(200, 200, 200);
         font-weight: bold;
-        font-size: 26px;
-        vertical-align: sub;
-        text-shadow: 0 0 3px #00ff00;
-        animation-name: next-arrow;
+        flex: 1;
       }
-      /*
+
+      #workButton {
+        font-size: 14px;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(0, 255, 0, 1);
+        border: 0px solid black;
+        outline: 0;
+        cursor: pointer;
+        border-radius: 5px;
+        span {
+          color: rgba(255, 255, 255, 0.8);
+          font-weight: bold;
+          font-size: 26px;
+          vertical-align: sub;
+          text-shadow: 0 0 3px #00ff00;
+          animation: next-arrow 2s infinite;
+        }
+        /*
       &:hover {
         background-color: rgb(100, 200, 100);
         color: white;
@@ -52,6 +60,25 @@
 
       transition: 0.6s;
 */
+      }
     }
+  }
+}
+
+@keyframes next-arrow {
+  0% {
+    text-shadow: 0 0 5px #00cc00;
+  }
+  25% {
+    text-shadow: 0 0 5px #00ff00;
+  }
+  50% {
+    text-shadow: 0 0 5px #00cc00;
+  }
+  75% {
+    text-shadow: 0 0 5px #00ff00;
+  }
+  100% {
+    text-shadow: 0 0 5px #00cc00;
   }
 }

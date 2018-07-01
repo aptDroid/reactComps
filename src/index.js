@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Profile } from "./components/Profile/Profile";
 import { ProfileLanding } from "./components/Landing/ProfileLanding";
+import { SinglePage } from "./components/SinglePage/SinglePage";
 
 import "./styles.scss";
 
@@ -49,9 +50,15 @@ const App = () => {
       </div>
     </div>
   );
+
+  (<ProfileLanding
+        skillLine={"CARRY"}
+        supportingLine={"SUPP HERO"}
+        location={"Bangalore"}
+      />);
   */
   return (
-    <React.Fragment>
+    <div id="appContainer">
       <Navbar
         list={[
           {
@@ -68,17 +75,12 @@ const App = () => {
           }
         ]}
       />
-      <ProfileLanding
+      <SinglePage
         skillLine={"CARRY"}
-        supportingLine={"SUPP HERO"}
+        supportingLine={"MANA BURN"}
         location={"Bangalore"}
       />
-      <ProfileLanding
-        skillLine={"CARRY"}
-        supportingLine={"SUPP HERO"}
-        location={"Bangalore"}
-      />
-    </React.Fragment>
+    </div>
   );
 };
 render(<App />, document.getElementById("app"));
