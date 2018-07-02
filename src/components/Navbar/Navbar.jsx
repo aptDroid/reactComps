@@ -14,9 +14,11 @@ export class Navbar extends React.Component {
         </a>
       );
     });
+
+    // <i>&spades;</i>
+
     return (
       <div id="navbar">
-        <i>&spades;</i>
         <div id="navItems">{list}</div>
       </div>
     );

@@ -57,29 +57,26 @@ const App = () => {
         location={"Bangalore"}
       />);
   */
+
   return (
     <div id="appContainer">
       <Navbar
         list={[
           {
-            name: "google",
-            href: "https://www.google.com/"
+            name: "home",
+            href: "#"
           },
           {
-            name: "facebook",
-            href: "https://www.facebook.com"
+            name: "about",
+            href: "#"
           },
           {
-            name: "deviantart",
-            href: "https://aptdroid.deviantart.com/gallery/"
+            name: "design",
+            href: "#"
           }
         ]}
       />
-      <SinglePage
-        skillLine={"CARRY"}
-        supportingLine={"MANA BURN"}
-        location={"Bangalore"}
-      />
+      <SinglePage />
     </div>
   );
 };
