@@ -43,7 +43,9 @@ export class SinglePage extends React.Component {
             </div>
           </div>
         </div>
-        <div id="test1" />
+        <div id="test1">
+          I am Shadow, the descendant of the king of the Shadow realm
+        </div>
         <div id="test2">
           <div>1</div>
           <div>2</div>

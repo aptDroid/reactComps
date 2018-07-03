@@ -73,24 +73,29 @@
 #test1 {
   margin-top: 100vh;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.1);
+  // background: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 1);
 }
 
 #test2 {
   margin-top: 100vh;
   height: 100vh;
-  background: rgba(255, 255, 255, 0.95);
+  // background: rgba(255, 255, 255, 0.95);
   color: rgba(255, 255, 255, 1);
   font-weight: bold;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: space-around;
-  padding: 4px;
 
   div {
-    width: 20vw;
-    background: rgba(85, 85, 85, 0.9);
+    flex: 1;
+    margin: 5px;
+    margin-top: 80px;
+    background: rgba(85, 85, 85, 0.99);
     border-radius: 10px;
+    box-shadow: 0 0 50px #fff;
   }
 }
 
