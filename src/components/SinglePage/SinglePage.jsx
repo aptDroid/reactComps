@@ -31,13 +31,17 @@ export class SinglePage extends React.Component {
     return (
       <React.Fragment>
         <div id="fixedProfile">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />HI
+          <div id="fixedProfileContent">
+            <img
+              src="https://pm1.narvii.com/6378/1a08731d4d4f912b512dafaef99f0b5692b7ad3e_hq.jpg"
+              alt="Shadow"
+              align="middle"
+            />
+            <div id="fixedProfileDesc">
+              <h3>Shadow</h3>
+              <p>XYZ</p>
+            </div>
+          </div>
         </div>
         <div id="about">2nd</div>
       </React.Fragment>
