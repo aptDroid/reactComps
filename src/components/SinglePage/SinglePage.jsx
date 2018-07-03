@@ -43,7 +43,14 @@ export class SinglePage extends React.Component {
             </div>
           </div>
         </div>
-        <div id="about">2nd</div>
+        <div id="test1" />
+        <div id="test2">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+        </div>
+        <div id="about">Full color</div>
       </React.Fragment>
     );
   }
