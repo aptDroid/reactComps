@@ -74,9 +74,9 @@
   margin-top: 100vh;
   height: 100vh;
   // background: rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
-  text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
 #test2 {
@@ -88,9 +88,11 @@
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: space-around;
+  flex-wrap: no-wrap;
 
   div {
     flex: 1;
+    width: 20vw;
     margin: 5px;
     margin-top: 80px;
     background: rgba(85, 85, 85, 0.99);
@@ -103,4 +105,5 @@
   margin-top: 100vh;
   height: 100vh;
   background: rgba(85, 85, 85, 0.99);
+  box-shadow: 0 0 10px #000;
 }
