@@ -30,17 +30,57 @@
 
 /////////////
 
-#fixedProfile {
-  position: fixed;
-  top: 0;
-  left: 0;
+#parallax1 {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
   height: 100vh;
   width: 100vw;
   // background-image: url("https://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
   z-index: -1;
+
+  background-image: url("https://pm1.narvii.com/6378/1a08731d4d4f912b512dafaef99f0b5692b7ad3e_hq.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#fixedProfileContent {
+#parallax2 {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  height: 100vh;
+  width: 100vw;
+  // background-image: url("https://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
+  z-index: -1;
+
+  background-image: url("https://pbs.twimg.com/profile_images/3237841929/a9446c37115715d619178123d7868ee5_400x400.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fixedProfileBg1 {
+  border: 1px dotted black;
+  height: 200px;
+  width: 90vw;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  img {
+    display: inline-block;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+  }
+}
+
+#fixedProfileBg2 {
   border: 1px dotted black;
   height: 200px;
   width: 90vw;
@@ -50,6 +90,7 @@
   left: 0;
   right: 0;
   margin: auto;
+  z-index: -3;
 
   img {
     display: inline-block;
@@ -57,23 +98,22 @@
     height: 200px;
     width: 200px;
   }
+}
+#fixedProfileDesc {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 
-  #fixedProfileDesc {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-
-    display: inline-block;
-    border: 1px dotted red;
-  }
+  display: inline-block;
+  border: 1px dotted red;
 }
 
 #test1 {
   margin-top: 100vh;
   height: 100vh;
-  // background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0);
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);

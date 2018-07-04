@@ -30,8 +30,8 @@ export class SinglePage extends React.Component {
     // </div>
     return (
       <React.Fragment>
-        <div id="fixedProfile">
-          <div id="fixedProfileContent">
+        <div id="parallax1">
+          <div id="fixedProfileBg1">
             <img
               src="https://pm1.narvii.com/6378/1a08731d4d4f912b512dafaef99f0b5692b7ad3e_hq.jpg"
               alt="Shadow"
@@ -45,6 +45,19 @@ export class SinglePage extends React.Component {
         </div>
         <div id="test1">
           I am Shadow, the descendant of the king of the Shadow realm
+        </div>
+        <div id="parallax2">
+          <div id="fixedProfileBg2">
+            <img
+              src="https://pbs.twimg.com/profile_images/3237841929/a9446c37115715d619178123d7868ee5_400x400.jpeg"
+              alt="Shadow"
+              align="middle"
+            />
+            <div id="fixedProfileDesc">
+              <h3>Shadow</h3>
+              <p>XYZ</p>
+            </div>
+          </div>
         </div>
         <div id="test2">
           <div>1</div>
